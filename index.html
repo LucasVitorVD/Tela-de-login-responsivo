@@ -5,23 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <img src="img/sapiens.png" alt="imagem">
-    <h1>Welcome Back</h1>
+    <div class="center">
+      <img class="img-princ" src="img/sapiens.png" alt="imagem">
+      <h1>Welcome Back &#x1F918;</h1>
+    </div>
 
-    <div>
+    <div class="input-float">
       <input type="text" placeholder="Email">
       <input type="password" placeholder="Password">
     </div>
 
     <div>
-      <button>Log In ></button>
-      <button><img src="img/google-icone.png" alt="google icone"> Log in with Google</button>
+      <button id="log-in">Log In ></button>
+      <button id="google-log"><img src="img/google-icone.png" alt="google icone" class="g-icon"> Log in with Google</button>
     </div>
-    
-    <p>Newbie? <strong>Create Account</strong></p>
+
+    <p>Newbie? <a href="#">Create Account</a></p>
   </main>
 </body>
 </html>
